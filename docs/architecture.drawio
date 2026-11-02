@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="YZm2rw28zeG48Hzvj5jx">
+    <mxGraphModel dx="1204" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tPgJyuCAcH2QC4ADFOES-13" edge="1" parent="1" source="tPgJyuCAcH2QC4ADFOES-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.452;entryY=0.004;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="tPgJyuCAcH2QC4ADFOES-2" value="Request">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPgJyuCAcH2QC4ADFOES-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Browser" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tPgJyuCAcH2QC4ADFOES-11" edge="1" parent="1" source="tPgJyuCAcH2QC4ADFOES-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="tPgJyuCAcH2QC4ADFOES-1" value="Html page">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="120" />
+              <mxPoint x="450" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPgJyuCAcH2QC4ADFOES-14" edge="1" parent="1" source="tPgJyuCAcH2QC4ADFOES-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="tPgJyuCAcH2QC4ADFOES-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPgJyuCAcH2QC4ADFOES-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="130" width="620" x="115" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tPgJyuCAcH2QC4ADFOES-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Auth, login" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="tPgJyuCAcH2QC4ADFOES-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="trips, post and browse" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="tPgJyuCAcH2QC4ADFOES-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="trips, request and accept/decline" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="tPgJyuCAcH2QC4ADFOES-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Jinja2 and CSS" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="tPgJyuCAcH2QC4ADFOES-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Flask app" vertex="1">
+          <mxGeometry height="30" width="60" x="140" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="tPgJyuCAcH2QC4ADFOES-15" edge="1" parent="1" source="tPgJyuCAcH2QC4ADFOES-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="tPgJyuCAcH2QC4ADFOES-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPgJyuCAcH2QC4ADFOES-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="db.py SQL" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="tPgJyuCAcH2QC4ADFOES-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="SQLite, rides.db file" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
