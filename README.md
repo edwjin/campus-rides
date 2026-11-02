@@ -13,6 +13,7 @@ College students who have to travel regionally, between cities, and home don't h
 - Drivers accept or decline requests, and seat counts update automatically
 - Contact info is revealed only after a request is accepted
 - A "My Trips" page for both riders and drivers
+
 **Not included in the MVP**
 - Payments
 - In-app chat
@@ -32,3 +33,5 @@ Items from "Schedule" in my matrix:
 - Scripting: Bash (run .sh)
 
 ## Planning docs found in docs folder
+docs/Eisenhower Matrix.pdf
+docs/architecture.drawio.png
